@@ -16,13 +16,14 @@ This project ensures accurate BMI calculations following guidelines from the Nat
 The BMI (Body Mass Index) is calculated differently based on the input method chosen:
 
 #### For Imperial Units (Pounds and Inches):
-\[ \text{BMI} = \frac{{\text{Weight}_{lbs} \times 703}}{{\text{Height}_{in}^2}} \]
+BMI = (Weight * 703)/(Height*Height)
 Where:
 - **Weight** is measured in pounds (lbs).
 - **Height** is measured in inches (in).
 
 #### For Metric Units (Kilograms and Centimeters):
-\[ \text{BMI} = \frac{{\text{Weight}_{kg}}}{{(\text{Height}_{cm} / 100)^2}} \]
+Height = Height/100   # converting the height into meters
+BMI = Weight/(Height*Height)
 Where:
 - **Weight** is measured in kilograms (kg).
 - **Height** is measured in centimeters (cm).
