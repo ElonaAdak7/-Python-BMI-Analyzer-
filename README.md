@@ -1,4 +1,4 @@
-# -Python-BMI-Analyzer
+# Python-BMI-Analyzer
 
 # Overview
 The BMI Analyzer is a versatile Python-based tool designed to calculate Body Mass Index (BMI) using two different input methods:
